@@ -15,9 +15,3 @@ app.listen(port, () => {
     console.log(`listening on port ${port}!`);
 })
 
-fetch("localhost:3000/hola")
-.then((res)=> res.json())
-.then((data)=>console.log(data))
-.catch((err)=>{
-    console.log("error occured", err)
-});
